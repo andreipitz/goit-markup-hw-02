@@ -10,6 +10,11 @@ body {
   letter-spacing: 0.02em;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  width: 1440px;
+  height: 72px;
+  gap: 0px;
+  border: 0px 0px 1px 0px;
+  opacity: 0px;
 }
 .span {
   font-family: "Raleway", sans-serif;
@@ -125,6 +130,11 @@ body {
 .hero {
   background-color: #2e2f42;
   text-align: center;
+  width: 1440px;
+  height: 600px;
+  top: 72px;
+  gap: 0px;
+  opacity: 0px;
 }
 .hero-title {
   font-size: 56px;
@@ -245,4 +255,22 @@ body {
   color: #2e2f42;
   line-height: 1.11;
   text-transform: capitalize;
+}
+.description {
+  width: 1128px;
+  height: 104px;
+  top: 792px;
+  left: 156px;
+  gap: 0px;
+  opacity: 0px;
+}
+.portofolio {
+  width: 1128px;
+  height: 1000px;
+  top: 1868px;
+  left: 156px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #e7e9fc;
 }
