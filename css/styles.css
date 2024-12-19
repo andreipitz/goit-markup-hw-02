@@ -2,23 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  width: 1440px;
-  height: 3300px;
-  top: 0px;
-  left: 0px;
-  gap: 0px;
-  opacity: 0px;
-  position: absolute;
-  box-sizing: border-box;
-  display: flex;
-  align-items: normal;
-  padding: 0%;
-  flex-direction: column;
-  border-radius: 0%;
-  box-shadow: none;
-  order: initial;
-  flex-grow: initial;
-  border-bottom: 0px;
 }
 .nav-bar {
   font-size: 16px;
@@ -54,9 +37,7 @@ body {
   line-height: 1.17;
   text-transform: uppercase;
 }
-.pages-link-first {
-  color: #2e2f42;
-  text-decoration: none;
+.pages-link {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -64,6 +45,17 @@ body {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  color: #2e2f42;
+}
+.pages-link-first {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #2e2f42;
 }
 .pages-link-first:hover {
   color: #404bbf;
