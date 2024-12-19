@@ -2,6 +2,23 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+  width: 1440px;
+  height: 3300px;
+  top: 0px;
+  left: 0px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  box-sizing: border-box;
+  display: flex;
+  align-items: normal;
+  padding: 0%;
+  flex-direction: column;
+  border-radius: 0%;
+  box-shadow: none;
+  order: initial;
+  flex-grow: initial;
+  border-bottom: 0px;
 }
 .nav-bar {
   font-size: 16px;
@@ -58,7 +75,7 @@ body {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-.pages-link-first:active {
+.pages-link-first:focus {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -142,7 +159,7 @@ body {
   cursor: pointer;
 }
 .order-button:hover,
-.order-button:active {
+.order-button:focus {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -221,6 +238,7 @@ body {
   text-decoration-skip-ink: none;
   line-height: 1.11;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 .our-team-item {
   background-color: #ffffff;
