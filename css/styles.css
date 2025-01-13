@@ -4,6 +4,8 @@ body {
   background-color: #ffffff;
   position: relative;
   align-items: center;
+  display: none;
+  
 }
 .nav-bar {
   font-size: 16px;
@@ -36,7 +38,7 @@ body {
   line-height: 1.17;
   text-transform: uppercase;
 }
-.span:focus {
+.span:hover {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
