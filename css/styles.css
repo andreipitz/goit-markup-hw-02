@@ -24,32 +24,6 @@ body {
   line-height: 1.17;
   text-transform: uppercase;
 }
-.span:hover {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration: none;
-  color: #404bbf;
-  line-height: 1.17;
-  text-transform: uppercase;
-}
-.span:focus {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration: none;
-  color: #404bbf;
-  line-height: 1.17;
-  text-transform: uppercase;
-}
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -63,39 +37,12 @@ body {
   line-height: 1.17;
   text-transform: uppercase;
 }
-.logo:focus {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration: none;
-  color: #404bbf;
-  line-height: 1.17;
-  text-transform: uppercase;
-}
-.logo:hover {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration: none;
-  color: #404bbf;
-  line-height: 1.17;
-  text-transform: uppercase;
-}
 .pages-link {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
-  text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #2e2f42;
 }
@@ -105,9 +52,8 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   color: #2e2f42;
+  text-decoration: none;
 }
 .pages-link-first:hover {
   color: #404bbf;
@@ -116,8 +62,6 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 .pages-link-first:focus {
   font-size: 16px;
@@ -125,31 +69,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   color: #404bbf;
-}
-.pages-link {
-  color: #2e2f42;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-}
-.pages-link:hover,
-.pages-link:focus {
-  color: #404bbf;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 .adress {
   font-family: Roboto;
@@ -296,3 +216,4 @@ body {
 }
 .portofolio {
   background-color: #e7e9fc;
+}
