@@ -72,6 +72,9 @@ body {
   text-align: left;
 }
 .adress {
+  font-style: normal;
+}
+.adress-item {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
@@ -82,9 +85,8 @@ body {
   text-decoration-skip-ink: none;
   color: #434455;
   text-decoration: none;
-  font-style: normal;
 }
-.adress:hover {
+.adressitem:hover {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
@@ -95,7 +97,7 @@ body {
   text-decoration-skip-ink: none;
   color: #404bbf;
 }
-.adress:focus {
+.adress-item:focus {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
