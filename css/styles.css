@@ -63,15 +63,7 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
 }
-.pages-link-first:focus {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  color: #404bbf;
-}
-.adress {
+.adress-component {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
@@ -84,7 +76,18 @@ body {
   text-decoration: none;
   font-style: normal;
 }
-.adress:hover {
+.adress-component:hover {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #404bbf;
+}
+.adress-component:focus {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
