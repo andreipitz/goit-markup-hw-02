@@ -55,7 +55,8 @@ body {
   color: #2e2f42;
   text-decoration: none;
 }
-.pages-link-first:hover {
+.pages-link-first:hover,
+.pages-link-first:focus {
   color: #404bbf;
   font-size: 16px;
   font-weight: 500;
