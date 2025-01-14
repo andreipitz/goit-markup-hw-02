@@ -2,7 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  align-items: center;
 }
 .nav-bar {
   font-size: 16px;
@@ -11,16 +10,6 @@ body {
   letter-spacing: 0.02em;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  width: 1440px;
-  height: 72px;
-  gap: 0px;
-  border: 0px 0px 1px 0px;
-  opacity: 0px;
-  width: 1440px;
-  height: 72px;
-  gap: 0px;
-  opacity: 0px;
-  display: inline;
 }
 .span {
   font-family: "Raleway", sans-serif;
@@ -36,7 +25,7 @@ body {
   text-transform: uppercase;
 }
 .span:hover,
-span:focus {
+.span:focus {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -164,17 +153,6 @@ span:focus {
 .hero {
   background-color: #2e2f42;
   text-align: center;
-  width: 1440px;
-  height: 600px;
-  top: 72px;
-  gap: 0px;
-  opacity: 0px;
-  width: 1440px;
-  height: 600px;
-  top: 72px;
-  gap: 0px;
-  opacity: 0px;
-  position: relative;
 }
 .hero-title {
   font-size: 56px;
@@ -247,12 +225,6 @@ span:focus {
 }
 .footer {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 312px;
-  top: 2988px;
-  gap: 0px;
-  opacity: 0px;
-  position: relative;
 }
 .footer-text {
   font-family: Roboto;
@@ -270,18 +242,6 @@ span:focus {
 }
 .our-team {
   background-color: #f4f4fd;
-  width: 1440px;
-  height: 732px;
-  top: 1016px;
-  gap: 0px;
-  opacity: 0px;
-  width: 1128px;
-  height: 104px;
-  top: 792px;
-  left: 156px;
-  gap: 0px;
-  opacity: 0px;
-  position: relative;
 }
 .our-team-title {
   font-size: 36px;
@@ -297,15 +257,6 @@ span:focus {
 }
 .our-team-item {
   background-color: #ffffff;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-  width: Hug (264px) px;
-  height: Hug (380px) px;
-  top: 1248px;
-  left: 156px;
-  padding: 0px 0px 32px 0px;
-  gap: 32px;
-  border-radius: 0px 0px 4px 4px;
-  opacity: 0px;
 }
 .section-title-portofolio {
   font-size: 36px;
@@ -318,29 +269,5 @@ span:focus {
   line-height: 1.11;
   text-transform: capitalize;
 }
-.description {
-  width: 1128px;
-  height: 104px;
-  top: 792px;
-  left: 156px;
-  gap: 0px;
-  opacity: 0px;
-}
 .portofolio {
-  width: 1128px;
-  height: 1000px;
-  top: 1868px;
-  left: 156px;
-  gap: 0px;
-  border: 1px 0px 0px 0px;
-  opacity: 0px;
   background-color: #e7e9fc;
-  position: relative;
-  width: 1128px;
-  height: 1000px;
-  top: 1868px;
-  left: 156px;
-  gap: 0px;
-  border: 1px 0px 0px 0px;
-  opacity: 0px;
-}
